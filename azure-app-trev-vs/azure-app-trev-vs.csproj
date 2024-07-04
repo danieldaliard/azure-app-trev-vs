@@ -5,6 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_trev_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/d8c2c89b-1fd3-45ae-9f02-d982a1101840/resourceGroups/azure-course/providers/microsoft.insights/components/azure-app-dani-vs</ApplicationInsightsResourceId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
